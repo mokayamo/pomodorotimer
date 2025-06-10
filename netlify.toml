@@ -1,0 +1,7 @@
+[build]
+command = "echo 'Static site deployed successfully'"
+base = ""
+directory = "."
+
+[context.production.environment]
+NODE_ENV = "production"
